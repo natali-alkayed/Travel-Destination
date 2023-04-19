@@ -1,0 +1,21 @@
+div
+{
+    border-bottom: 2px solid brown;
+}
+
+div h3{
+text-align: center;
+color: brown;
+}
+
+div h2{
+    text-align: center;
+    color: brown;
+    }
+
+div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
