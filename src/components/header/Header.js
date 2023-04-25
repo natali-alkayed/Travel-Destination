@@ -1,11 +1,15 @@
 import './Header.css'
-function Header(){
-    return(
-        <h1> Toures App </h1>
+import Navbar from '../Navbar/Navbar';
+function Header(props) {
+    return (
+        <>
+<div className='title'>
+         <h1> Tours App</h1>
+         <Navbar/>
+       
+        </div>
+        </>
     )
 }
+
 export default Header;
-
-
-
-
